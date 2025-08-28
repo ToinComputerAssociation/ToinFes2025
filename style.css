@@ -1,0 +1,150 @@
+* {
+    margin:0;
+}
+
+.container {
+    width:100%;
+    min-height:100vh;
+    background-color: black;
+    display: grid;
+}
+
+.grid-home{
+    grid-template-columns: 100%;
+}
+
+.grid-games {
+    grid-template-columns:100%;
+}
+
+.maingrid a {
+    display: grid;
+    width: max-content;
+}
+
+.container button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    appearance: none;
+}
+
+.container a{
+    text-decoration:none;
+    color:#97f4fe;
+    transition-duration: .4s;
+}
+
+.container a:hover {
+    color:#feb897;
+    box-shadow: none;
+}
+
+.sub{
+    color:#97f4fe;
+    text-align:center;
+    font-size:1.5rem;
+}
+
+
+.button {
+    margin: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align:center;
+    font-size:3rem;
+    margin-bottom:2rem;
+    margin-top:2rem;
+    border-radius:25px;
+    background-color:black;
+    color:#97f4fe;
+    box-shadow: 0px 0px 30px #686868;
+}
+
+.author-btn {
+    width:90%;
+    text-align:left;
+    font-size:3rem;
+    padding-top:0.2rem;
+    padding-bottom:0.2rem;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:1.5rem;
+    transition-duration: .4s;
+    display:flex;
+}
+
+.gametitle {
+    position: absolute;
+}
+
+.screenshot {
+    width: 33%;
+    height: 100%;
+    margin-top: 4.7rem;
+    margin-bottom: 0.7rem;
+    margin-right: 0.8rem;
+}
+
+.description {
+    font-size: 1.5rem;
+    margin-top: 4.7rem;
+    margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 600px) {
+.author-btn {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.description {
+    margin-top: 0;
+}
+.screenshot {
+    width: 100%;
+    margin-top: calc(10vw + 2.0rem);
+}
+.gametitle {
+    font-size: 10vw;
+}
+}
+
+.link-icon-wrapper{
+    position:fixed;
+    bottom:1rem;
+    right:1rem;
+    display:flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+}
+
+.link-icon {
+    width:auto;
+    height:auto;
+    margin-right:1rem;
+    font-size:1rem;
+    border-radius:10px;
+    background-color:black;
+    box-shadow:0px 0px 20px #686868;
+    padding: 0.5rem;
+}
+
+.title {
+    color:white;
+    text-align:center;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.game-container{
+    height:100vh
+}
+
+.pre-btn {
+    position:fixed;
+    top:10px;
+    left:10px;
+}
