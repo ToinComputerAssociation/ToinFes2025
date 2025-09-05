@@ -21,6 +21,7 @@
 .grid-games p {
   color: white;
   margin-left: 2rem;
+  display: block;
 }
 
 .maingrid a {
