@@ -15,7 +15,11 @@
 
 .grid-games {
     grid-template-columns:100%;
-    color:#FFFFFF;
+    color:white;
+}
+
+.grid-games p {
+  color: white;
 }
 
 .maingrid a {
