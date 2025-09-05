@@ -17,6 +17,11 @@
     grid-template-columns:100%;
 }
 
+.maingrid .button {
+  align-self: center;  
+  justify-self: center;
+}
+
 .info-text {
   color: white;
   text-align: center;
