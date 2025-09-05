@@ -15,13 +15,12 @@
 
 .grid-games {
     grid-template-columns:100%;
-    color:white;
 }
 
-.grid-games p {
+.info-text {
+  display: block;
   color: white;
   margin-left: 4rem;
-  display: block;
 }
 
 .maingrid a {
