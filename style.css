@@ -23,6 +23,11 @@
   text-align: center;
 }
 
+.maingrid {
+  display: flex;
+  justify-content: center;
+}
+
 .maingrid a {
   display: inline-block;
   width: max-content;
