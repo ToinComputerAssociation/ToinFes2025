@@ -23,15 +23,19 @@
   text-align: center;
 }
 
-.maingrid {
-  display: grid;
-  place-items: center;
+.maingrid .button {
+  margin-top: 0;   
+  transform: translateY(-1.5rem);
+}
+@media screen and (max-width: 600px) {
+  .maingrid .button {
+    transform: translateY(-0.6rem); 
+  }
 }
 
 .maingrid a {
   display: inline-block;
   width: max-content;
-  margin-top: 0; 
 }
 
 .container button {
