@@ -17,19 +17,21 @@
     grid-template-columns:100%;
 }
 
-.maingrid .button {
-  margin-top: -20px;
-  display:block;
-}
 
 .info-text {
   color: white;
   text-align: center;
 }
 
+.maingrid {
+  display: grid;
+  place-items: center;
+}
+
 .maingrid a {
-    display: grid;
-    width: max-content;
+  display: inline-block;
+  width: max-content;
+  margin-top: 0; 
 }
 
 .container button {
