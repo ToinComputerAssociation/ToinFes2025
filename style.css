@@ -23,21 +23,17 @@
   text-align: center;
 }
 
-.maingrid {
-  display: grid;      
-  justify-items: center;
-  align-items: center; 
-}
 
-.maingrid .button {
+.container .maingrid .button {
   display: inline-block; 
-  margin: 0;          
-  justify-self: center;  
-  align-self: center;    
+  margin-top: 0;         
+  margin-bottom: 0;        
+  justify-self: center;
+  align-self: center;
   transform: translateY(-1.2rem); 
 }
 @media screen and (max-width: 600px) {
-  .maingrid .button {
+  .container .maingrid .button {
     transform: translateY(-0.6rem);
   }
 }
