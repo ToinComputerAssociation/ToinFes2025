@@ -23,6 +23,12 @@
   text-align: center;
 }
 
+.maingrid {
+  display: grid;      
+  justify-items: center;
+  align-items: center;
+  text-align: center; 
+}
 
 .container .maingrid .button {
   display: inline-block; 
