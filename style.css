@@ -155,21 +155,3 @@
     left:10px;
 }
 
-.container .maingrid {
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;    
-  text-align: center !important;
-}
-
-.container .maingrid .button {
-  display: inline-block !important;
-  margin: 0 !important;          
-  transform: translateY(-1.2rem) !important; 
-  box-sizing: border-box !important;
-}
-@media screen and (max-width: 600px) {
-  .container .maingrid .button {
-    transform: translateY(-0.6rem) !important;
-  }
-}
