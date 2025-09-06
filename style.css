@@ -25,11 +25,11 @@
 
 .maingrid .button {
   margin-top: 0;   
-  transform: translateY(-1.5rem);
+  transform: translateX(-1.5rem);
 }
 @media screen and (max-width: 600px) {
   .maingrid .button {
-    transform: translateY(-0.6rem); 
+    transform: translateX(-0.6rem); 
   }
 }
 
